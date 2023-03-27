@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FRONTEND MENTOR - Intro Section with Dropdown Navigation</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
@@ -20,10 +21,33 @@
     <header>
         <div class="nav-wrapper d-flex">
             <div class="nav-left-col d-flex">
-                <div class="nav-left-logo"></div>
-                <div class="nav-left-list-main"></div>
+                <div class="nav-left-logo">
+                    <img src="images/logo.svg" alt="Snap logo">
+                </div>
+                <div class="nav-left-list-main">
+                    <ul class="main-menu d-flex">
+                        <li>Features</li>
+                        <ul class="sub-menu feature-sub-menu">
+                            <li> <img src="images/icon-todo.svg" alt="Todo list image">Todo List</li>
+                            <li> <img src="images/icon-calendar.svg" alt="Calendar image">Calendar</li>
+                            <li> <img src="images/icon-reminders.svg" alt="Reminders image">Reminders</li>
+                            <li> <img src="images/icon-planning.svg" alt="Planning image">Planning</li>
+                        </ul>
+                        <li>Company</li>
+                        <ul class="sub-menu company-sub-menu">
+                            <li>History</li>
+                            <li>Our Team</li>
+                            <li>Blog</li>
+                        </ul>
+                        <li>Careers</li>
+                        <li>About</li>
+                    </ul>
+                </div>
             </div>
-            <div class="nav-right-col"></div>
+            <div class="nav-right-col">
+                <button class="login-btn">Login</button>
+                <button class="register-btn">Register</button>
+            </div>
         </div>
     </header>
     <main></main>
