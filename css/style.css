@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /*font-family: 'Epilogue', sans-serif;*/
@@ -16,4 +17,29 @@ body {
     body {
         background-color: darkgoldenrod !important;
     }
+
+    .nav-wrapper {
+        width: 100vw !important;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+
+    .nav-left-col {
+        flex: 50%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-right-col {
+        flex: 50%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-right-col button {}
 }
