@@ -34,6 +34,7 @@ body {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 2rem;
+        color: var(--text);
         font-size: 18px;
         font-family: 'Epilogue', sans-serif;
         font-weight: 500;
@@ -51,8 +52,18 @@ body {
         width: 100%;
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
+        align-items: start;
     }
 
     .nav-right-col button {}
+
+    .main-menu {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-cols {
+        padding: 0rem 1rem 0rem 1rem;
+    }
 }
