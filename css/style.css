@@ -4,18 +4,28 @@
     overflow-x: hidden;
 }
 
-/*font-family: 'Epilogue', sans-serif;*/
+:root {
+    --testMobileBg: cornflowerblue;
+    --testDesktopBg: darkgoldenrod;
+
+    --text: #6b6b6b;
+    --hover: #141414;
+}
+
+/* - font-family: 'Epilogue', sans-serif;*/
+/* - Menu text color : #141414*/
+/* - Menu text hover color : #6b6b6b*/
 /*Default css for mobile interface*/
 
 body {
-    background-color: cornflowerblue !important;
+    background-color: var(--testMobileBg) !important;
 }
 
 /*End of the mobile css*/
 
 @media only screen and (min-width:1280px) {
     body {
-        background-color: darkgoldenrod !important;
+        background-color: var(--testDesktopBg) !important;
     }
 
     .nav-wrapper {
@@ -24,6 +34,9 @@ body {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 2rem;
+        font-size: 18px;
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 500;
     }
 
     .nav-left-col {
